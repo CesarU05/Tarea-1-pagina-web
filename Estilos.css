@@ -2,10 +2,18 @@
     height: 10px;
 }
 
-
-
-
 .servicios-fila{
     text-align: center;
     text-align: center;
+}
+
+h2{
+    font-family: 'Delius Unicase', cursive;
+    background:lightskyblue;
+    color: black;
+   }
+
+#tituloServicio{
+    font-family: 'Delius Unicase', cursive;
+    color: black;
 }
