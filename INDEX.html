@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ES-ES">
+<html lang="">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,45 +8,45 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="Estilos.css">
+    <link rel="icon" href="IMAGENES/LOGO.PNG">
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap" rel="stylesheet">
 
     <title>SERVICIOS DE ENCOMIENDAS</title>
   </head>
   <body>
         <!-- REALIZANDO EL ENCABEZADO DE DLA PAGINA CON EL LOGO. -->
-    <header class="container-fluid bg-primary text-center d-flex justify-content-center">
+    <header class="container-fluid bg-info text-center d-flex justify-content-center">
        <p class="text-light mg-0 p-3 fs-6"><b>Contacto +(505) 2279-3014</b></p>
     </header>
 
     <!-- REALIZACION DEL MENU DE NAVEGACION. -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top " style="background-color: #e3f2fd;">
         <div class="container-fluid">
             <!-- PONIENDO LA IMAGEN PARA ICONO DE REDIRECCION. -->
-          <a class="navbar-brand" href="INDEX.html"><img src="IMAGENES/LOGO.PNG" width="90px" alt="SERVICIOS 2224"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="INDEX.html"><img src="IMAGENES/LOGO.PNG" width="50px" alt="SERVICIOS 2224"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse nav nav-pills" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                <!-- Inicio de los enlaces en menu de navegacion o botones  -->
-              <li class="nav-item">
-                <a class="nav-link active text-light fs-8 text-center" aria-current="page" href="INDEX.html"><b>INICIO</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-black fs-8 text-center" href="QuienesSomos.html"><b>QUIENES SOMOS</b> </a>
-              </li>
-              <li>
-                  <a class="nav-link text-black text-center"  href="Servicio.html"> <b>SERVICIOS</b></a>
-              </li>
-              <li>
-                  <a class="nav-link text-black text-center" href="Contacto.html"><b>CONTACTO</b></a>
-              </li>
-              <li>
-                  <a class="nav-link text-black text-center" href="https://www.youtube.com/watch?v=f9_DTn0XVaw"><b>PROCESO DE ENVIO</b></a>
-              </li>
-            </ul>
-           
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                      <!-- Inicio de los enlaces en menu de navegacion o botones  -->
+                      <li class="nav-item">
+                        <a class="nav-link active text-light fs-8 text-center" aria-current="page" href="INDEX.html"><b>INICIO</b></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-black fs-8 text-center" href="QuienesSomos.html"><b>QUIENES SOMOS</b> </a>
+                      </li>
+                      <li>
+                          <a class="nav-link text-black text-center"  href="Servicio.html"> <b>SERVICIOS</b></a>
+                      </li>
+                      <li>
+                          <a class="nav-link text-black text-center" href="Contacto.html"><b>CONTACTO</b></a>
+                      </li>
+                      <li>
+                          <a class="nav-link text-black text-center" href="https://www.youtube.com/watch?v=f9_DTn0XVaw"><b>PROCESO DE ENVIO</b></a>
+                      </li>
+                </ul>
             </li>
-            
           </div>
         </div>
       </nav>
@@ -59,13 +59,13 @@
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="IMAGENES/slide 1.jpg" class="d-block w-100" width="100px" height="500px" alt="Punto de envio.">
+                            <img src="IMAGENES/slide 1.jpg" class="d-block w-100" width="90px" height="410px" alt="Punto de envio.">
                           </div>
                           <div class="carousel-item">
-                            <img src="IMAGENES/slide 2. jpg.jpg" class="d-block w-100" height="500px" alt="Servicio de envio">
+                            <img src="IMAGENES/slide 2. jpg.jpg" class="d-block w-100" width="90px" height="410px" alt="Servicio de envio">
                           </div>
                           <div class="carousel-item">
-                            <img src="IMAGENES/slide 3.jpg" class="d-block w-100" height="500px" alt="Servicio de envio">
+                            <img src="IMAGENES/slide 3.jpg" class="d-block w-100" width="90px" height="410px" alt="Servicio de envio">
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -83,51 +83,61 @@
       </main>
 
       <!-- CONSTRUCCION DE INFORMACION DE LA PAGINA EN LA PARTE PRINCIPAL. -->
-      <section  class="w-50 mx-auto text-rigth  " id="Seccion">
+      <section class="container border border-3 mb-3 border-info" id="Seccion">
+          <!-- SERVICIO DE CORUIER -->
+          <div class="row py-5">
+                <div class="col-sm-6">
+                  <img src="IMAGENES/fotoGeneral.jpg" class="img-fluid" width="600px" alt="">
+                </div> 
 
-          <div class="col-12 col-md-6 pb-2 pb-md-0">
-                
+                <!-- SERVICIO DE EMBALAJE -->
+                <div class="col-sm-6">
+                      <h3 class="display-6 text-danger"><b>Fast Box Express (Servicios de encomiendas)</b></h3>
+                      <p style="text-align: justify;">Con casi 25 años de experiencia diseñando y adaptando nuestros procesos logísticos a las necesidades de nuestros clientes, lo cual nos ha permitido proveer servicios de calidad, basados en la seguridad, mejores tiempos de entrega y la mayor cobertura a nivel nacional.    </p>
+                      <p style="text-align: justify;"> Comprendemos que asociarse con usted exige una comprensión completa de los objetivos de su empresa y una alineación con ellos. Es por eso que las empresas líderes en el sector de fármacos, productos financieros, tecnología y muchos más eligen <b>Fast Box Express</b> como su socio logístico de confianza</p>
+                      <p style="text-align: justify;">Nuestra propuesta de servicio le permitirá una mejora considerable en la distribución de sus productos, mejores tiempos de entrega, pronta respuesta ante incidencias, garantía de carga en un 100%, calidad en la atención al cliente y retro-alimentación constante sobre todos sus envíos.</p>
+                      <div class="col-4">
+                        <a href="QuienesSomos.html" class="btn btn-outline-success text-center">Leer Mas.</a>
+                      </div>
+                </div>
+              
           </div>
-          <h1 class="text-center border-top border-4 border-primary p-3"><b>Fast Box Express (Servicios de encomiendas)</b></h1>
-                <p class="text-center">Con casi 25 años de experiencia diseñando y adaptando nuestros procesos logísticos a las necesidades de nuestros clientes, lo cual nos ha permitido proveer servicios de calidad, basados en la seguridad, mejores tiempos de entrega y la mayor cobertura a nivel nacional.    </p>
-                <p class="text-center"> Comprendemos que asociarse con usted exige una comprensión completa de los objetivos de su empresa y una alineación con ellos. Es por eso que las empresas líderes en el sector de fármacos, productos financieros, tecnología y muchos más eligen <b>Fast Box Express</b> como su socio logístico de confianza</p>
-                <p class="text-center">Nuestra propuesta de servicio le permitirá una mejora considerable en la distribución de sus productos, mejores tiempos de entrega, pronta respuesta ante incidencias, garantía de carga en un 100%, calidad en la atención al cliente y retro-alimentación constante sobre todos sus envíos.</p>
-          
-
-         </section>
+      </section>
 
         <!-- MOSTRADOR DE SERVICIOS. -->
-     <section class="container-fluid">
-       <h1 class="text-center border-top border-4 border-primary p-3"><b>Servicios en desarrollo</b></h1>
-       <div class="row w-75 mx-auto my-5">
-         <div class="col-lg-6 col-md-12 col-sm-12 servicios-fila">
-            <img src="IMAGENES/CARRITO1.PNG" alt="" width="180" height="160">
-         </div>
-        <div>
-          <h3 class="fs-5 mt-4 px-4 pb-1">Servicios de viajes especiales.</h3>
-          <p class="text-center px-4">Alquiler de vehículos para uso exclusivo del cliente. El servicio puede incluir combustible y piloto.</p>
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 servicios-fila">
-          <img src="IMAGENES/serviciopaquete.png " alt="" width="180" height="160">
-       </div>
-      <div>
-        <h3 class="fs-5 mt-4 px-4 pb-1">Servicios de coruier.</h3>
-        <p class= px-4">Transporte de mensajería y paquetería a nivel nacional cubriendo los 17 departamentos, con la mayor cobertura a nivel nacional con la mayor cantidad de puntos de entrega.</p>
-      </div>
-      <div class="row">
-         <div class="col-lg-6 col-md-12 col-sm-12 servicios-fila">
-           <img src="IMAGENES/Servicio 3.jpg" alt="" width="180" height="160">
-         </div>
-       <div>
-         <h3 class="fs-5 mt-4 px-4 pb-1">Servicios de viajes especiales.</h3>
-         <p class="px-4">Alquiler de vehículos para uso exclusivo del cliente. El servicio puede incluir combustible y piloto.</p>
+     <section class="container">
+       <div class="row">
+              <h2 class="text-center border-top  p-3 d-inline-block px-2"><b>Servicios en ofertas</b></h2>
+              <h5 class="text-center mt-4 mb-5 text-primary">Realizamos envios a todas partes del pais con la mejor flota y personal calificado para el manejo de tus envios.</h4>
+              <div class="col-12 col-md-4 text-center">
+                  <img src="IMAGENES/service_courier.jpg" width="300px" alt="Crema depiladora" class="img-fluid mt-3 border border-3 border-success">
+                  <h3 class="py-2">servicio de viajes especiales</h3>
+                  <p class=" px-4" style="text-align: justify;">Transporte de mensajería y paquetería a nivel nacional cubriendo los 17 departamentos, con la mayor cobertura a nivel nacional con la mayor cantidad de puntos de entrega.</p>
+                  <button class="btn btn-outline-success px-5 py-2">Comprar</button>
+              </div>
+              <div class="col-12 col-md-4 text-center mt-3">
+                <img src="IMAGENES/mensajeria.jpg" alt="Crema depiladora" width="200px" class="img-fluid border border-3 border-success">
+                <h3 class="py-2">Servicio de Mensajeria Empresarial y Domiciliar</h3>
+                <p class="px-4" style="text-align: justify;">Brindamos el servicio de mensajería empresarial y domiciliar, local y departamental ya sea para entregas de envíos de estados de cuentas. </p>
+                <button class="btn btn-outline-success px-5 py-2">Comprar</button>
+            </div>
+            <div class="col-12 col-md-4 text-center mt-3">
+              <img src="IMAGENES/Servicio 3.jpg" alt="Crema depiladora" width="200px" class="img-fluid border border-3 border-success">
+              <h3 class="py-2">Cobertura de servicio</h3>
+              <p class="tpx-4" style="text-align: justify;">Dentro de la nuestra cobertura tenemos clasificadas todas las cabeceras departamentales y municipios cercanos a la cabecera.</p>
+
+              <button class="btn btn-outline-success px-5 py-2">Comprar</button>
+            </div>
        </div>
 
-       </div>
+
+
+
+       
      </section>
 
           <!-- CONTRSUCCION DEL FOOTER O PIE DE PAGINA -->
-           <footer class="bg-primary mt-5 text-white">
+           <footer class="bg-info  mt-5 text-white">
             <div class="container ">
               <div class="row py-5">
                 <p class="text-center ">Fast Box Express. All Rights Reserved. Designed Fast Box Express &copy;2021-2022</p>
@@ -153,7 +163,7 @@
                       <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"/>
                     </a>
                     <!-- YOU TUBE -->
-                    <a href="" class="text-reset">
+                    <a href="https://www.youtube.com/" class="text-reset">
                       <img src="https://img.icons8.com/fluency/50/000000/youtube.png"/>
                     </a>
                   </li>

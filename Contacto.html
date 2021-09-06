@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ES-ES   ">
+<html lang="es-es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,20 +8,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="Estilos.css">
+    <link rel="icon" href="IMAGENES/LOGO.PNG">
 
-    <title>SERVICIOS DE ENCOMIENDAS</title>
+    <title>CONTACTO</title>
   </head>
   <body>
         <!-- REALIZANDO EL ENCABEZADO DE DLA PAGINA CON EL LOGO. -->
-    <header class="container-fluid bg-primary text-center d-flex justify-content-center">
+    <header class="container-fluid bg-info text-center d-flex justify-content-center">
        <p class="text-light mg-0 p-3 fs-6"><b>Contacto +(505) 2279-3014</b></p>
     </header>
 
     <!-- REALIZACION DEL MENU DE NAVEGACION. -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+    <nav class="navbar navbar-expand-lg navbar-light  sticky-top " style="background-color: #e3f2fd;">
         <div class="container-fluid">
             <!-- PONIENDO LA IMAGEN PARA ICONO DE REDIRECCION. -->
-          <a class="navbar-brand" href="INDEX.html"><img src="IMAGENES/LOGO.PNG" width="90px" alt="SERVICIOS 2224"></a>
+          <a class="navbar-brand" href="INDEX.html"><img src="IMAGENES/LOGO.PNG" width="50px" alt="SERVICIOS 2224"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -88,24 +89,33 @@
         <h4 >Formulario de contacto.</h4>
         
         <!-- formulario -->
-        <div class="container border border-4 border-primary">
+        <div class="container border border-4 border-info">
             <!-- CREACION DEL LABEL NOMBRE -->
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label text-black">Nombre</label>
+            <div class="mb-3 mt-3">
+                <label for="exampleFormControlInput1" class="form-label text-black">Nombre:</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite su nombre:">
             </div>
             <!-- CREACION DEL LABEL DE DIRECCION -->
-            <div class="mb-3 ">
-                <label for="exampleFormControlInput2" class="form-label">Direccion de correo electronico</label>
-                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+              <div class="mb-3 ">
+                  <label for="exampleFormControlInput2" class="form-label">Direccion de correo electronico:</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
               </div>
+              <!-- Creacion de fecha -->
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Fecha:</label>
+                  <input type="date" class="form-control">
+                </div>
+
               <!-- CREACION DEL LABEL PARA ESCRBIR EL MENSAJE -->
               <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
               <div class="w-100"></div>
-              <input class="btn btn-primary mb-4 " type="submit" value="Enviar">
+              <div class="col-12 text-center">
+                <input class="btn btn-outline-info btn-lg mb-4 " type="submit" value="Enviar">
+              </div>
+              
         </div>
 
         
@@ -115,7 +125,7 @@
      </section>
       
       <!-- CONTRSUCCION DEL FOOTER O PIE DE PAGINA -->
-      <footer class="bg-primary mt-5 text-white">
+      <footer class="bg-info mt-5 text-white">
         <div class="container ">
           <div class="row py-5">
             <p class="text-center ">Fast Box Express. All Rights Reserved. Designed Fast Box Express &copy;2021-2022</p>
